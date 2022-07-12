@@ -1,0 +1,8 @@
+.container__body {
+    padding: var(--layout-padding);
+}
+.sidbar_layout__container {
+    display: grid;
+    grid-template-columns: 15% 82.5%;
+    gap: 2.5%;
+}
