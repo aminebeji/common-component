@@ -1,0 +1,15 @@
+.main__input_container {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.2em 0.5em;
+}
+.main__input {
+    background-color: transparent;
+    border: none;
+}
+@media screen and (max-width: 992px) {
+  .main__input_container {
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
-import './App.css';
-import { ResponsiveLayout } from './lib';
+import "./App.css";
+import { ResponsiveLayout } from "./lib";
 function App() {
   return (
     <div>
@@ -8,7 +8,7 @@ function App() {
         items={[
           { link: "/", title: "home" },
           { link: "/components", title: "Components" },
-          { link: "#about-us", title: "About Us" }
+          { link: "#about-us", title: "About Us" },
         ]}
         sideBar={true}
       >
